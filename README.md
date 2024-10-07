@@ -1,7 +1,7 @@
 # Anton Blast Demo Web Port
 A port of the Anton Blast (Demo 1.2) to the web browser
 
-> GameMaker Version Used: 2022.0.2 (aka the 2022 LTS)
+> GameMaker Version Used: 2022.0.2.51 (aka the 2022 LTS)
 
 Demo Site: COMING SOON!
 
