@@ -1,0 +1,1 @@
+spriteFacing = -1

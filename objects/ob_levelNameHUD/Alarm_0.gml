@@ -1,0 +1,1 @@
+spriteAlphaTimer = 240

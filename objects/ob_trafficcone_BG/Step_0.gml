@@ -1,0 +1,6 @@
+animation_frame_counter()
+assign_layer_objects()
+if (!(place_meeting(x, (y + 1), ob_block_BG)))
+    self.destructibleDestroy()
+if place_meeting(x, y, myExplosion)
+    self.destructibleDestroy()

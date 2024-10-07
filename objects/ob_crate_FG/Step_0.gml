@@ -1,0 +1,25 @@
+animation_frame_counter()
+var collidingPlayer = instance_place(x, (y - 1), ob_player)
+var collidingPlayerBelow = instance_place(x, (y + 1), ob_player)
+if collidingPlayer
+{
+    if (collidingPlayer.myLayer == myLayer && collidingPlayer.verticalSpeed > -0.01)
+    {
+        if (collidingPlayer.currentState != playerstates.assblast && collidingPlayer.currentState != playerstates.airhammer)
+        {
+            collidingPlayer.y -= 1
+            collidingPlayer.verticalSpeed = (collidingPlayer.jumpPower * 0.85)
+            collidingPlayer.spriteImage = sp_anton_jump
+            self.destructibleDestroy()
+        }
+    }
+}
+if collidingPlayerBelow
+{
+    if (collidingPlayerBelow.myLayer == myLayer)
+        self.destructibleDestroy()
+}
+if place_meeting(x, y, ob_explosion)
+    self.destructibleDestroy()
+if place_meeting(x, y, ob_moleRocketHitbox)
+    self.destructibleDestroy()

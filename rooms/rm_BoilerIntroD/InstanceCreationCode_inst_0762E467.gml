@@ -1,0 +1,1 @@
+explosiveFuseLength = 60

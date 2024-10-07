@@ -1,0 +1,2 @@
+if (debugvisible && (object_index == ob_block_BG || object_index == ob_block_FG || object_get_parent(object_index) == ob_slope_BG || object_get_parent(object_index) == ob_slope_FG))
+	draw_self_gameplay_layer()

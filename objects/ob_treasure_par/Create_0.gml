@@ -1,0 +1,29 @@
+animation_init()
+spriteImage = sprite_index
+spriteScale = 1
+layerDepth = 1
+xPosition = x
+yPosition = y
+currentX = x
+currentY = y
+horizontalSpeed = 0
+verticalSpeed = 0
+gravitySpeed = 0.25
+maxFallSpeed = 4
+horizontalVelocity = 0
+horizontalVelocity_subpixel = 0
+verticalVelocity = 0
+verticalVelocity_subpixel = 0
+b_onGround = 0
+b_hasGravity = 0
+myBlock = -4
+myLayer = 1
+b_canDespawn = 1
+despawnTimer = irandom_range(300, 420)
+treasureValue = 100
+treasureCollectSound = -4
+treasureParticle = -4
+currentState = 0
+b_collected = 0
+key = treasure_get_key()
+treasure_status()

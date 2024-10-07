@@ -1,0 +1,1 @@
+global.roomSong = 1

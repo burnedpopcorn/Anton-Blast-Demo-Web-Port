@@ -1,0 +1,5 @@
+draw_set_color(c_black)
+draw_rectangle(screenshakeBounds.x, screenshakeBounds.y, screenshakeBounds.getRight(), (screenshakeBounds.y + screenshakeForce), false)
+draw_rectangle(screenshakeBounds.x, screenshakeBounds.y, (screenshakeBounds.x + screenshakeForce), screenshakeBounds.getBottom(), false)
+draw_rectangle(screenshakeBounds.x, (screenshakeBounds.getBottom() - screenshakeForce), screenshakeBounds.getRight(), screenshakeBounds.getBottom(), false)
+draw_rectangle((screenshakeBounds.getRight() - screenshakeForce), screenshakeBounds.y, screenshakeBounds.getRight(), screenshakeBounds.getBottom(), false)

@@ -1,0 +1,5 @@
+_palette = map(spriteScale, 0.5, 1, 2, 1)
+pal_swap_set(palette, _palette, 0)
+draw_self_plus()
+pal_swap_reset()
+draw_set_font(fn_test)

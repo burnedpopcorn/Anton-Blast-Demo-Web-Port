@@ -1,0 +1,5 @@
+if surface_exists(negativeSurface)
+    surface_resize(negativeSurface, room_width, room_height)
+if surface_exists(silhouetteSurface)
+    surface_resize(silhouetteSurface, room_width, room_height)
+layers = layer_get_all()

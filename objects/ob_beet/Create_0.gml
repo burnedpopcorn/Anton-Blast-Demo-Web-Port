@@ -1,0 +1,20 @@
+animation_init()
+spriteImage = sprite_index
+spriteScale = 0.1
+myLayer = 1
+layerDepth = 1
+xPosition = x
+yPosition = y
+currentX = x
+currentY = y
+horizontalSpeed = 0
+verticalSpeed = -7
+gravitySpeed = 0.25
+maxFallSpeed = 4
+horizontalVelocity = 0
+horizontalVelocity_subpixel = 0
+verticalVelocity = 0
+verticalVelocity_subpixel = 0
+b_pulled = 0
+b_following = 0
+b_collected = 0
