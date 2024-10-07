@@ -3,7 +3,7 @@ A port of the Anton Blast (Demo 1.2) to the web browser
 
 > GameMaker Version Used: 2022.0.2.51 (aka the 2022 LTS)
 
-Demo Site: COMING SOON!
+Demo Site: https://www.autistici.org/burnedprojects/anton_blast/runner.html
 
 ## Downloads
 
